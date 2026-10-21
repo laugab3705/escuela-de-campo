@@ -270,6 +270,44 @@
  
     <!-- Información útil -->
     <section id="informacion" class="rounded-t-[2.5rem] bg-forest py-24 text-cream sm:rounded-t-[4rem] sm:py-36">
+<template>
+      <!-- Cinta fotográfica del predio y actividades -->
+      <div class="mx-auto max-w-6xl px-6 pb-16 sm:pb-24">
+        <div data-reveal="up" class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          
+          <!-- Foto 1: Caballos / Vínculo -->
+          <div class="group relative h-64 sm:h-80 overflow-hidden rounded-[2rem] shadow-sm border border-forest/10">
+            <img src="LAU_5558.JPG" alt="Vínculo con caballos en el campo" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-forest/60 via-transparent to-transparent flex items-end p-6">
+              <span class="text-xs font-semibold uppercase tracking-wider text-cream/90 bg-forest/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
+                <i class="fa-solid fa-horse mr-1 text-clay"></i> Caballos
+              </span>
+            </div>
+          </div>
+
+          <!-- Foto 2: Espacio al aire libre / Naturaleza -->
+          <div class="group relative h-64 sm:h-80 overflow-hidden rounded-[2rem] shadow-sm border border-forest/10 sm:-translate-y-4">
+            <img src="Fotos/IMG_3736.JPG" alt="Espacios verdes y aire libre" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-forest/60 via-transparent to-transparent flex items-end p-6">
+              
+                <i class="fa-solid fa-seedling mr-1 text-lime"></i> El predio
+              
+            </div>
+          </div>
+
+          <!-- Foto 3: Momentos y recreación -->
+          <div class="group relative h-64 sm:h-80 overflow-hidden rounded-[2rem] shadow-sm border border-forest/10">
+            <img src="Fotos/IMG_4235.JPG" alt="Actividades y recreación" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-forest/60 via-transparent to-transparent flex items-end p-6">
+              <span class="text-xs font-semibold uppercase tracking-wider text-cream/90 bg-forest/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
+                <i class="fa-solid fa-heart mr-1 text-sun"></i> Comunidad
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</template>
       <div class="mx-auto max-w-6xl px-6">
         <h2 data-reveal="up" class="text-3xl font-bold leading-tight tracking-tight sm:text-5xl">Información útil</h2>
 
